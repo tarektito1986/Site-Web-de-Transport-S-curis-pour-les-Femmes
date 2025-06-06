@@ -1,0 +1,217 @@
+
+
+
+body {
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+h1{
+  color: #591036;
+  font-weight: bold;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#navbarNav button a{
+  text-decoration: none;
+  color: white;
+}
+nav.navbar {
+  background-color: rgb(252, 245, 245);
+  border-top: 10px solid #d3b1c2;
+}
+.nav-link:active{
+  font-weight: bold;
+}
+.nav-link:hover{
+  transform: scale(1.07);
+
+}
+.image-container {
+  overflow: hidden; /* pour que l'image ne déborde pas */
+  border-radius: 15px; /* arrondir les coins si tu veux */
+}
+
+.image-zoom:hover {
+  transform: scale(0.9); /* Zoom léger */
+  filter: brightness(0.9); /* éclat / brillance */
+}
+.download:hover{
+
+  transform: scale(1.05);
+}
+.footer-link {
+  color: rgb(51, 27, 42);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgb(85, 49, 66);
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+}
+#logo{
+    display: flex;
+    padding-left: 20px;
+    width: 5.5rem;
+    height: 5rem;
+}
+#logo2{
+    display: flex;
+    height: 3.5rem;
+    margin-right: 3rem;
+}
+#logo3{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+    justify-items: center;
+}
+#logo3:hover{
+  transform: scale(1.07);
+}
+.image{
+  display: flex;
+
+}
+.bouton{
+  background: linear-gradient(to right, #461637, #c990ac);
+  color: whitesmoke;
+  border: 0px;
+}
+.bouton:hover{
+  background: linear-gradient(to right, #c990ac, #461637);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optionnel : pour une plus belle ombre */
+}
+
+
+.comment_card .p-4 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comment_card:hover .p-4 {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optionnel : pour une plus belle ombre */
+}
+.savoir_plus{
+  background-color: #d3b1c2;
+  color:#ffffff;
+}
+.savoir_plus:hover{
+  
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optionnel : pour une plus belle ombre */
+}
+#how{background: 
+  linear-gradient(to top, rgba(126, 19, 73, 0.8), rgba(242, 218, 235, 0.8)),
+  linear-gradient(to bottom, #ead839, #ffffff);
+
+  color: whitesmoke;
+}
+#about{
+    background-color: #ffffff;
+    color: rgb(34, 15, 25);
+}
+  
+
+
+
+.section-gauche{
+  display: block;
+
+}
+.titre-mchina {
+  font-size: 11vw; /* La taille du texte est 15% de la largeur de l'écran */
+  color: #511f38;
+  font-weight: bold;
+  margin-left: 5vw; /* Utilisation de vw pour un espacement plus dynamique */
+}
+
+.slogan {
+  margin-left: 5vw;
+  font-size: 5vw; /* La taille du texte est 8% de la largeur de l'écran */
+  color: white;
+  margin-top: 2vw;
+  line-height: 1;
+  font-family: 'Helvetica';
+}
+
+.telechargement img{
+    height: 15vh;
+    width:30vh;
+    margin: 2vh;
+}
+#telecharger{
+    background-image:url('img/rose_back.svg'),url(img/rose1.svg);
+    background-size: contain,cover ;       /* couvre tout l’espace */
+    background-position: right center,center;  /* centre l’image */
+    background-repeat: no-repeat,no-repeat; /* pas de répétition */
+    width:100%,100%;
+    min-height: 100vh,100vh;            /* hauteur de la fenêtre */
+    min-width:100%,100%;
+  
+}
+.img-fluid{
+    border-radius: 5vw;
+    width: 40vw;
+    height: 35vw;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+.img-fluid:hover{
+  transform: scale(0.9) translateY(-5px); /* Zoom léger */
+  filter: brightness(0.9); /* éclat / brillance */
+  
+}
+#features{
+    display: flex;
+    flex-wrap: flex;
+    position: relative;
+}
+#features1 h1 {
+    text-transform: capitalize;
+    font-size: 5vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    color: #000000;
+}
+#features1 img{
+  height: max-content;
+  width: max-content;
+}
+#yallah_mchina {
+    background:linear-gradient(to right ,rgb(85, 56, 73),#d3b1c2 ) ;
+    padding: 4vh;
+    border-radius:10vh;
+    color: white;
+    font-family: 'aharoni';
+    width: max-content;
+}
+#yallah_mchina:hover{
+  transform: scale(0.9); /* Zoom léger */
+  filter: brightness(1.2); /* éclat / brillance */
+}
+#features1{
+  width:100%;
+  min-height: 100vh;            /* hauteur de la fenêtre */
+  min-width:100%;
+}
+.img-fluid{
+  border-radius: 50%;
+}

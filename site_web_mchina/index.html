@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/png" href="icon.svg" rel="icon">
+    <title>Mchina - Application de Transport</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg  fixed-top">
+  <div class="container">
+    <div id="logo" class="navbar-brand"><img src="img/logo.svg" alt="aman_logo" href="#home"></div>
+    <div id="logo2" class="navbar-brand" href="#home"><h1>Mchina</h1></div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#home">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Fonctionnalités</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#telecharger">Télécharger</a></li>
+        <button  class="btn btn-primary rounded-pill d-flex align-items-center"  style="background-color: #d3b1c2; border:none; ">
+          <a  href="#contact"><i class="bi bi-chat-dots me-2"></i> <!-- Icône Bootstrap Icons -->
+            Contact
+          </a>
+        </button>
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Section Plein Écran avec image10.svg -->
+
+<section class="container-fluid p-0"
+  id="home"
+  style="
+    background-image:url('img/rose_back.svg'),url(img/rose1.svg);
+    background-size: contain,cover ;       /* couvre tout l’espace */
+    background-position: right center,center;  /* centre l’image */
+    background-repeat: no-repeat,no-repeat; /* pas de répétition */
+    width:100%,100%;
+    min-height: 100vh,100vh;            /* hauteur de la fenêtre */
+    min-width:100%,100%;
+  "
+>
+<div class="container-fluid h-100">
+    <div class="col-7 d-flex flex-column justify-content-center ">
+      <h1 class="titre-mchina">Mchina ?</h1>
+      <p class="slogan">Par Des Femmes<br>& Pour Des Femmes</p>
+    </div>
+
+</div>
+
+
+
+</section>
+
+<section
+  id="home"
+  class="text-center d-flex align-items-center justify-content-center"
+  style="
+    background-color:#d3b1c2;
+    background-image: url(img/image1.svg);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: #333F50;
+    min-height: 100vh;
+  "
+>
+<div class="image">
+  <div id="logo3"><img src="img/logo.svg" alt="aman_logo" ></div>
+<div>
+  <h1 class="display-4 fw-bold " >Bienvenue sur Mchina</h1>
+  <p class="lead ">L'application de transport rapide, fiable et sécurisée au Maroc</p>
+  
+  </div>
+</div></div>
+</section>
+
+<section id="features1" class="full-height-section d-flex flex-column justify-content-center align-items-center">
+  <div class="text-center mb-3 col-11 col-lg-11 row align-items-center justify-content-center"><h1>Découvrez les atouts de Mchina pour votre sécurité</h1>
+
+    <h1 id="yallah_mchina" class="text-center my-5">Yallah Mchina ?</h1>
+  </div>
+  
+  <!-- image telephone -->
+  <div class="mb-3 col-12 col-lg-12 row align-items-center justify-content-center image-container">
+    <img src='img/features.svg'alt="fleche"  class="image-zoom">
+  </div>
+  
+</section>
+
+
+<section id="features" class="min-vh-100" style="background-color: white;">
+  <div class="container py-5">
+
+    <!-- Carte 1 : Texte gauche - Image droite -->
+    <div class="row align-items-center g-4 mb-5" id="card1">
+      <div class="col-12 col-lg-6">
+        <h1>Conductrices vérifiées</h1>
+        <p>Chaque chauffeur partenaire passe par un processus rigoureux de validation pour assurer la sécurité et la fiabilité de nos services. Nos conductrices sont spécialement formées pour offrir un trajet serein et rassurant.</p>
+        <p class="text-muted">Identité vérifiée, casier judiciaire contrôlé, et formation obligatoire.</p>
+        <a href="#" class="btn  rounded mt-3 savoir_plus">savoir plus</a>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/fonc1.png" class="img-fluid" alt="Conductrices vérifiées">
+      </div>
+    </div>
+
+    <!-- Carte 2 : Image gauche - Texte droite -->
+    <div class="row align-items-center g-4 mb-5 flex-lg-row-reverse" class="card">
+      <div class="col-12 col-lg-6">
+        <h1>Vidéosurveillance & GPS</h1>
+        <p>Nous mettons votre sécurité au premier plan grâce à des caméras embarquées et un suivi GPS en temps réel. Votre trajet est surveillé pour garantir transparence et assistance immédiate en cas de besoin.</p>
+        <p class="text-muted">Chaque mouvement est suivi pour votre tranquillité d'esprit.</p>
+        <a href="#" class="btn rounded mt-3 savoir_plus">savoir plus</a>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/fonc2.jpg" class="img-fluid" alt="Vidéosurveillance & GPS">
+      </div>
+    </div>
+
+    <!-- Carte 3 : Texte gauche - Image droite -->
+    <div class="row align-items-center g-4 mb-5" class="card">
+      <div class="col-12 col-lg-6">
+        <h1>Paiements flexibles</h1>
+        <p>Payez comme vous voulez ! Choisissez entre espèces, carte bancaire ou notre porte-monnaie électronique intégré pour un paiement rapide, sécurisé et sans contact.</p>
+        <p class="text-muted">Simplifiez vos déplacements grâce à plusieurs moyens de paiement.</p>
+        <a href="#" class="btn  rounded mt-3 savoir_plus">savoir plus</a>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/fonc3.jpg" class="img-fluid" alt="Paiements diversifiés">
+      </div>
+    </div>
+
+    <!-- Carte 4 : Image gauche - Texte droite -->
+    <div class="row align-items-center g-4 mb-5 flex-lg-row-reverse" class="card">
+      <div class="col-12 col-lg-6">
+        <h1>Transport des enfants</h1>
+        <p>Confiez vos enfants à nos conductrices qualifiées pour leurs trajets scolaires et leurs activités. Nous veillons à leur sécurité avec une attention particulière et un environnement rassurant.</p>
+        <p class="text-muted">Des conductrices formées pour transporter les enfants en toute sécurité.</p>
+        <a href="#" class="btn rounded mt-3 savoir_plus" >savoir plus</a>
+      </div>
+      <div class="col-12 col-lg-6">
+        <img src="img/fonc7.jpg" class="img-fluid" alt="Transport d'enfants">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Features Section -->
+<section id="features" class="text-center d-flex align-items-center justify-content-center"
+style="
+  background-image: url('img/image2.svg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: white;
+  color: rgb(244, 235, 235);
+  min-height: 100vh;
+">
+  <div class="container text-center">
+    <h2 class="section-title">Pourquoi Mchina?</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <i class="bi bi-shield-lock-fill fs-1"></i>
+        <h5 class="mt-3">Sécurité</h5>
+        <p>Chauffeurs vérifiés</p><P>Assistance 24h/24</P><p>Suivi GPS en temps réel</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-phone fs-1"></i>
+        <h5 class="mt-3">Application Intelligente</h5>
+        <p>Interface simple</p><p>réservation instantanée & en avance</p><p>Estimations de tarif précises</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-cash-coin fs-1"></i>
+        <h5 class="mt-3">Payment Flexibles</h5>
+        <p>Choisissez parmi plusieurs types de payment</p><p>Bénéficiez de l'estimation de prix le trajet</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" 
+style="background-color: white;min-height: 100vh;">
+  <div class="container text-center">
+    <h2 class="section-title">À propos de Mchina</h2>
+    <p class="lead">Découvrez <strong>Mchina</strong>, l'application qui révolutionne la sécurité des femmes dans les transports publics.
+      Avec Mchina, voyagez en toute sérénité : <strong> femmes vérifiées, véhicules équipés de caméras et de GPS, accompagnement sécurisé pour vous et vos enfants</strong> , et paiement simple selon vos préférences.</p>
+      <p class="lead">Que vous soyez à Casablanca, Marrakech ou ailleurs, Mchina vous offre la liberté de vous déplacer sans crainte, avec transparence et respect de vos besoins.</p>
+      <p class="lead">Parce que chaque femme mérite de voyager en toute confiance, Mchina est votre allié pour un transport sûr, pratique et accessible.</p>
+      <p class="lead">Nous croyons en la technologie pour créer un avenir meilleur pour nos communautés.</p>
+
+  </div>
+</section>
+
+<!-- How it Works Section -->
+<section id="how" style="background-color: var(--mustard-section);">
+  <div class="container text-center">
+    <h2 class="section-title">Comment ça marche ?</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <i class="bi bi-download fs-1"></i>
+        <h5 class="mt-3">1. Téléchargez</h5>
+        <p>Disponible sur iOS et Android</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-map fs-1"></i>
+        <h5 class="mt-3">2. Réservez</h5>
+        <p>Saisissez votre destination et choisissez un véhicule</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-emoji-smile fs-1"></i>
+        <h5 class="mt-3">3. Voyagez</h5>
+        <p>Profitez d’un trajet confortable et sécurisé</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section Avis Clients -->
+<section style="min-height: 100vh; background-color: #FFF9EC; color: #333F50;" class="d-flex align-items-center" id="testimonials">
+    <div class="container py-5">
+      <h2 class="text-center fw-bold mb-5">Ce que disent nos clients</h2>
+      <div class="row g-4">
+  
+        <!-- Commentaire 1 -->
+        <div class="col-md-6 col-lg-4 comment_card">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <p>“Un service excellent ! Le conducteur était professionnel et à l’heure.”</p>
+            <div class="text-warning mb-2">
+              ★★★★☆
+            </div>
+            <h6 class="mb-0 fw-bold">Fatima Z.</h6>
+            <small>Casablanca</small>
+          </div>
+        </div>
+  
+        <!-- Commentaire 2 -->
+        <div class="col-md-6 col-lg-4 comment_card">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <p>“Très pratique et sécurisé, j’utilise Mchina tous les jours pour le travail.”</p>
+            <div class="text-warning mb-2">
+              ★★★★★
+            </div>
+            <h6 class="mb-0 fw-bold">Ahlam L.</h6>
+            <small>Rabat</small>
+          </div>
+        </div>
+  
+        <!-- Commentaire 3 -->
+        <div class="col-md-6 col-lg-4 comment_card">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <p>“Bonne application, mais j’aimerais voir plus de choix de véhicules.”</p>
+            <div class="text-warning mb-2">
+              ★★★★☆
+            </div>
+            <h6 class="mb-0 fw-bold">Sanae M.</h6>
+            <small>Tanger</small>
+          </div>
+        </div>
+  
+        <!-- Commentaire 4 -->
+        <div class="col-md-6 col-lg-6 comment_card">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <p>“J’adore le système de réservation anticipée. Très utile pour les déplacements importants.”</p>
+            <div class="text-warning mb-2">
+              ★★★★★
+            </div>
+            <h6 class="mb-0 fw-bold">Zainab H.</h6>
+            <small>Marrakech</small>
+          </div>
+        </div>
+  
+        <!-- Commentaire 5 -->
+        <div class="col-md-6 col-lg-6 comment_card">
+          <div class="p-4 shadow rounded bg-white h-100">
+            <p>“Interface propre et fluide. Bravo à l’équipe derrière cette appli marocaine !”</p>
+            <div class="text-warning mb-2">
+              ★★★★★
+            </div>
+            <h6 class="mb-0 fw-bold">Doha R.</h6>
+            <small>Agadir</small>
+          </div>
+        </div>
+  
+      </div>
+      <!-- Bouton pour ajouter un commentaire -->
+      <div class="text-center">
+        <button  type="button" class="btn btn-primary mt-5 mb-3 bouton" data-bs-toggle="modal" data-bs-target="#commentModal">
+          Ajouter un commentaire
+        </button>
+      </div>
+      
+
+      <!-- Modal pour saisir le commentaire -->
+      <!-- Modal pour saisir le commentaire -->
+      <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="commentModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            
+            <!-- En-tête du modal -->
+            <div class="modal-header">
+              <h5 class="modal-title" id="commentModalLabel">Nouveau Commentaire</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+
+            <!-- Corps du modal -->
+            <div class="modal-body">
+              <form method="post" action="traitement.php" enctype="multipart/form-data">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="name" placeholder="Votre nom complet" required name="name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Adresse email</label>
+                  <input type="email" class="form-control" id="email" placeholder="exemple@email.com" required name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="ville" class="form-label">Ville</label>
+                  <input type="text" class="form-control" id="ville" placeholder="Votre ville" required name="ville">
+                </div>
+
+                <!-- Champ de commentaire -->
+                <div class="mb-3">
+                  <label for="comment" class="form-label">Votre commentaire :</label>
+                  <textarea class="form-control" id="comment" rows="3" placeholder="Écrivez votre commentaire ici..." name="commentaire"></textarea>
+                </div>
+
+                <!-- Bouton pour envoyer -->
+                <button type="submit" class="btn btn-success" name="envoyer_comment">Envoyer</button>
+              
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  
+  
+  <!-- CTA Section - fond foncé -->
+  <section id="telecharger" class="text-center" style=" color: white; min-height: 70vh;">
+    <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+      <h2 class="section-title display-5 fw-bold">Téléchargez Mchina maintenant</h2>
+      <p class="lead">Réservez votre première course en quelques clics !</p><!-- Boîte de téléchargement pour l'App Store -->
+      <div class="telecharger">
+        <div class="telechargement">
+          <a href="#" class="btn-download">
+            <img src="img/app-store-badge.svg" alt="App Store" class="download"/>
+          </a>
+          <a href="#" class="btn-download">
+            <img src="img/google-play-badge.svg" alt="Play Store"  class="download"/>
+          </a></div>
+      </div>
+  </section>
+  
+<!-- Section Contact -->
+<section style="min-height: 100vh; background-color: #ffffff; color: rgb(51, 27, 42);" id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Contactez-nous</h2>
+    
+    <div class="row g-5 align-items-stretch">
+      <!-- Formulaire de contact -->
+      <div class="col-lg-6 d-flex comment_card">
+        <div class="p-4 shadow rounded bg-light w-100">
+          <h4 class="mb-4">Envoyez-nous un message</h4>
+          <form method="post" action="traitement.php"  enctype="multipart/form-data">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="name" placeholder="Votre nom complet" required name="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Adresse email</label>
+              <input type="email" class="form-control" id="email" placeholder="exemple@email.com" required name="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Écrivez votre message ici..." required name="message"></textarea>
+            </div>
+            <div class="text-end">
+              <button type="submit" class="btn px-4 bouton" name="envoyer">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Localisation -->
+      <div class="col-lg-6 d-flex comment_card">
+        <div class="p-4 shadow rounded bg-light w-100 ">
+          <h4 class="mb-2">Notre Agence</h4>
+          <p class="mb-3">Nous sommes situés dans un endroit central et facilement accessible. N'hésitez pas à venir nous rendre visite !</p>
+          <div class="ratio ratio-4x3 rounded">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.617611958386!2d-7.620439684796832!3d33.59224844919547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cdcd41a12239%3A0x3a3b3b3b7b7b7b7!2sCasablanca!5e0!3m2!1sfr!2sma!4v1681234567890!5m2!1sfr!2sma"
+              style="border:0;" allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Footer -->
+<footer class="d-flex align-items-center" style="min-height: 100vh; background-color: rgb(252, 245, 245); color: rgb(51, 27, 42);" id="contact">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 mb-4">
+        <div href="#home"><h1>Mchina</h1></div>
+        <p>Votre partenaire de transport moderne, alliant sécurité, rapidité et confort dans toutes vos courses au Maroc.</p>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>À propos</h5>
+        <ul class="list-unstyled">
+          <li><a class="footer-link" href="#">Notre mission</a></li>
+          <li><a class="footer-link" href="#">Carrières</a></li>
+          <li><a class="footer-link" href="#">Investisseurs</a></li>
+          <li><a class="footer-link" href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Aide & Support</h5>
+        <ul class="list-unstyled">
+          <li><a class="footer-link" href="#">Centre d’assistance</a></li>
+          <li><a class="footer-link" href="#">FAQs</a></li>
+          <li><a class="footer-link" href="#">Confidentialité</a></li>
+          <li><a class="footer-link" href="#">Conditions d’utilisation</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <h5>Suivez-nous</h5>
+        <p>Rejoignez notre communauté et restez informé :</p>
+        <div>
+          <a href="#" class="me-3" style="color: #333F50;"><i class="bi bi-facebook fs-4"></i></a>
+          <a href="#" class="me-3" style="color: #333F50;"><i class="bi bi-whatsapp fs-4"></i></a>
+          <a href="#" class="me-3" style="color: #333F50;"><i class="bi bi-instagram fs-4"></i></a>
+          <a href="#" class="" style="color: #333F50;"><i class="bi bi-linkedin fs-4"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔽 Localisation discrète et stylée -->
+    <div class="row justify-content-center mb-3">
+
+    <hr class="border-dark my-4">
+
+      <div class="col-auto text-center">
+        <a href="#contact" class="d-flex align-items-center text-decoration-none text-dark gap-2">
+          <i class="bi bi-geo-alt-fill fs-5" style="color: #d63384;"></i>
+          <span class="fw-medium">Casablanca, Maroc</span>
+        </a>
+      </div>
+    </div>
+
+    <hr class="border-dark my-4">
+
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Mchina. Tous droits réservés. | Développé avec ❤️ par l'équipe Mchina.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
